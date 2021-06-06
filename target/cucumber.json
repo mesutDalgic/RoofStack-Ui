@@ -1,0 +1,177 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-06T18:49:48.673Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2842000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RoofStack.StepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Lead Product Tester Is Basvurusu",
+        "description": "",
+        "id": "roofstack-is-basvuru-otomasyonu;lead-product-tester-is-basvurusu",
+        "after": [
+          {
+            "result": {
+              "duration": 1073000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RoofStack.StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3838000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Google’da \"Roof Stacks Yazılım\" seklinde arama yapilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Roof Stacks Yazılım\"",
+                  "offset": 10
+                }
+              ],
+              "location": "RoofStack.StepDefinitions.ApplyStepDefs.google_da_seklinde_arama_yapilir(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15176000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Sonuclar listesinden \"https://roofstacks.com\" adresine girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://roofstacks.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "RoofStack.StepDefinitions.ApplyStepDefs.sonuclar_listesinden_adresine_girilir(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7854000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Kariyer sayfasina gidilir",
+            "match": {
+              "location": "RoofStack.StepDefinitions.ApplyStepDefs.kariyer_sayfasina_gidilir()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4678000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Ilanlar arasindan Product pozisyonu secilir",
+            "match": {
+              "location": "RoofStack.StepDefinitions.ApplyStepDefs.ilanlar_arasindan_Product_pozisyonu_secilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1293000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Lead Product Tester secilir",
+            "match": {
+              "location": "RoofStack.StepDefinitions.ApplyStepDefs.lead_Product_Tester_secilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10012000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "\"Lead Product Tester\" sayfasinda sayfanin gelip gelmedigi, dogrulugu kontrol edilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lead Product Tester\"",
+                  "offset": 0
+                }
+              ],
+              "location": "RoofStack.StepDefinitions.ApplyStepDefs.sayfasinda_sayfanin_gelip_gelmedigi_dogrulugu_kontrol_edilir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "SendCV butonuna basarak bir dosya upload edelim",
+            "match": {
+              "location": "RoofStack.StepDefinitions.ApplyStepDefs.sendcv_butonuna_basarak_bir_dosya_upload_edelim()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 327000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Eposta adresine e-mail adresinizi girelim",
+            "match": {
+              "location": "RoofStack.StepDefinitions.ApplyStepDefs.eposta_adresine_e_mail_adresinizi_girelim()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5369000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Sample bir dosya yukleyelim ve upload butonuna basarak dosyayi paylasalim",
+            "match": {
+              "location": "RoofStack.StepDefinitions.ApplyStepDefs.Sample_bir_dosya_yukleyelim_ve_upload_butonuna_basarak_dosyayi_paylasalim()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apply"
+          }
+        ]
+      }
+    ],
+    "name": "RoofStack Is Basvuru Otomasyonu",
+    "description": "",
+    "id": "roofstack-is-basvuru-otomasyonu",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/JobApply.feature",
+    "tags": []
+  }
+]
